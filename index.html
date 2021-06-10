@@ -1,0 +1,69 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<title> 001889091 Shuyang Zhang </title>
+    <link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="BootstrapTable/bootstrap-table.css">
+    <link type="text/css" rel="stylesheet" href="index.css" />
+</head>  
+<body>
+    <div></div>
+    <div id="head">
+        <ul>
+            <li>
+                <span id="title">001889091 Shuyang Zhang</span>
+            </li>
+        </ul>
+    </div>
+    <form action="/search/" method="post">
+        <p>ROOM:<input type="text" name="room" placeholder="ROOM NUMBER" maxlength="200"></p>
+        <p>GRADE:
+        <input type="number" name="low" placeholder="LOW" maxlength="10">
+            TO
+        <input type="number" name="high" placeholder="HIGH" maxlength="10">
+        </p>
+        <p><input type="submit" name="submit" value="Search"></p>
+    </form>
+
+    <div id="controller">
+        <button id="new">ADD</button>
+        <button id="delete">DELETE</button>
+    </div>
+    <div id="outtable">
+        <table id="table"></table>
+    </div>
+
+    <div id="all">
+        <div id="popUp">
+            <div id="inforTitle">
+                <span id="inTitle">ADD</span>
+                <img id="imgCancel" src="img/2.png">
+            </div>
+            <div id="inforInput">
+                <form>
+                    NAME<input type="text" id="name" placeholder="INPUT NAME"><br>
+                    STATE<input type="text" id="state" placeholder="INPUT STATE"><br>
+                    SALARY<input type="text" id="salary" placeholder="INPUT SALARY"><br>
+                    GRADE<input type="number" id="grade" placeholder="INPUT GRADE"><br>
+                    ROOM<input type="text" id="room" placeholder="INPUT ROOM"><br>
+                    TELNUM<input type="text" id="telnum" placeholder="INPUT TELNUM"><br>
+                    KEYWORDS<input type="text" id="keywords" placeholder="INPUT KEYWORDS">
+                </form>
+            </div>
+            <hr style="background-color:#f1f1f1;border:0px;height:2px"/>
+            <div id="inforBottom">
+                <button id="define">SUBMIT</button> 
+                <button id="updatedefine">SUBMIT</button> 
+                <button id="cancel">CANCEL</button>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>   
+    <script type="text/javascript" src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="BootstrapTable/bootstrap-table.js"></script>
+    <script type="text/javascript" src="BootstrapTable/bootstrap-table-zh-CN.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>  
+</html> 
