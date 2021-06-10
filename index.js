@@ -78,8 +78,8 @@ defineBtn.onclick = function() {
 
 function operateFormatter(value, row, index) {
     return [
-        '<img class="upData" src="img/4.png" style="margin-right:30px;"></img>',
-        '<img class="sinDel" src="img/5.png" style="margin-right:5px;"></img>'
+        '<img class="upData" src="4.png" style="margin-right:30px;"></img>',
+        '<img class="sinDel" src="5.png" style="margin-right:5px;"></img>'
 //        '<button type="button" class="sinDel btn btn-primary btn-sm" style="margin-left:5px;">删除</button>'
     ].join('');
 }
